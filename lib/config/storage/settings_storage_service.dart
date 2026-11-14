@@ -10,10 +10,7 @@ class SettingsStorageService {
   Box get _box => Hive.box(_boxName);
 
   Locale getLanguage() {
-    final languageCode = _box.get(
-      _languageKey,
-      defaultValue: 'ar',
-    ) as String;
+    final languageCode = _box.get(_languageKey, defaultValue: 'ar') as String;
 
     return Locale(languageCode);
   }
@@ -23,10 +20,7 @@ class SettingsStorageService {
   }
 
   ThemeMode getThemeMode() {
-    final theme = _box.get(
-      _themeKey,
-      defaultValue: 'system',
-    ) as String;
+    final theme = _box.get(_themeKey, defaultValue: 'system') as String;
 
     return ThemeMode.values.firstWhere(
       (mode) => mode.name == theme,

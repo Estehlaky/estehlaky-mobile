@@ -1,6 +1,6 @@
 import 'package:estehlaky/config/storage/secure_storage_service.dart';
 import 'package:estehlaky/core/constant/app_constants.dart';
- 
+
 import 'package:injectable/injectable.dart';
 
 @lazySingleton

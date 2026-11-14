@@ -1,4 +1,3 @@
-
 import 'package:estehlaky/core/constant/app_styles.dart';
 import 'package:estehlaky/core/ui/app_colors.dart';
 import 'package:flutter/material.dart';
@@ -27,27 +26,23 @@ abstract final class AppTheme {
   }) {
     final isDark = brightness == Brightness.dark;
 
-    final colorScheme = (isDark
-            ? const ColorScheme.dark()
-            : const ColorScheme.light())
-        .copyWith(
-      primary: colors.primary,
-      onPrimary: isDark ? AppColors.blue18263E : AppColors.white,
-      secondary: colors.accent,
-      onSecondary: AppColors.brown352600,
-      surface: colors.surface,
-      onSurface: colors.textPrimary,
-      outline: colors.border,
-      onSurfaceVariant: colors.textSecondary,
-      error: colors.error,
-      onError: AppColors.white,
-      shadow: colors.shadow,
-    );
+    final colorScheme =
+        (isDark ? const ColorScheme.dark() : const ColorScheme.light())
+            .copyWith(
+              primary: colors.primary,
+              onPrimary: isDark ? AppColors.blue18263E : AppColors.white,
+              secondary: colors.accent,
+              onSecondary: AppColors.brown352600,
+              surface: colors.surface,
+              onSurface: colors.textPrimary,
+              outline: colors.border,
+              onSurfaceVariant: colors.textSecondary,
+              error: colors.error,
+              onError: AppColors.white,
+              shadow: colors.shadow,
+            );
 
-    final textTheme = AppStyles.textTheme(
-      locale: locale,
-      colors: colors,
-    );
+    final textTheme = AppStyles.textTheme(locale: locale, colors: colors);
 
     final defaultRadius = BorderRadius.circular(12);
 
@@ -78,10 +73,7 @@ abstract final class AppTheme {
         elevation: 0,
         centerTitle: false,
         titleSpacing: 25,
-        iconTheme: IconThemeData(
-          color: colors.textPrimary,
-          size: 20,
-        ),
+        iconTheme: IconThemeData(color: colors.textPrimary, size: 20),
       ),
 
       cardTheme: CardThemeData(
@@ -100,10 +92,7 @@ abstract final class AppTheme {
         space: 1,
       ),
 
-      iconTheme: IconThemeData(
-        color: colors.textSecondary,
-        size: 22,
-      ),
+      iconTheme: IconThemeData(color: colors.textSecondary, size: 22),
 
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: colors.surface,
@@ -130,19 +119,12 @@ abstract final class AppTheme {
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           backgroundColor: colors.primary,
-          foregroundColor: isDark
-              ? AppColors.blue18263E
-              : AppColors.white,
+          foregroundColor: isDark ? AppColors.blue18263E : AppColors.white,
           disabledBackgroundColor: colors.border,
           disabledForegroundColor: colors.textSecondary,
           elevation: 0,
-          padding: const EdgeInsets.symmetric(
-            horizontal: 24,
-            vertical: 14,
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
           textStyle: AppStyles.style(
             locale: locale,
             fontSize: AppStyles.s14,
@@ -155,13 +137,8 @@ abstract final class AppTheme {
         style: OutlinedButton.styleFrom(
           foregroundColor: colors.textPrimary,
           side: BorderSide(color: colors.border),
-          padding: const EdgeInsets.symmetric(
-            horizontal: 24,
-            vertical: 14,
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
           textStyle: AppStyles.style(
             locale: locale,
             fontSize: AppStyles.s14,
@@ -203,10 +180,7 @@ abstract final class AppTheme {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
-          borderSide: BorderSide(
-            color: colors.primary,
-            width: 1.6,
-          ),
+          borderSide: BorderSide(color: colors.primary, width: 1.6),
         ),
         errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
@@ -214,10 +188,7 @@ abstract final class AppTheme {
         ),
         focusedErrorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
-          borderSide: BorderSide(
-            color: colors.error,
-            width: 1.6,
-          ),
+          borderSide: BorderSide(color: colors.error, width: 1.6),
         ),
       ),
     );
@@ -258,10 +229,7 @@ class AppThemeColors extends ThemeExtension<AppThemeColors> {
   }
 
   @override
-  AppThemeColors lerp(
-    covariant AppThemeColors? other,
-    double t,
-  ) {
+  AppThemeColors lerp(covariant AppThemeColors? other, double t) {
     if (other == null) return this;
 
     return AppThemeColors(

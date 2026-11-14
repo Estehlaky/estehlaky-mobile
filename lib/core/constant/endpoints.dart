@@ -3,5 +3,4 @@ abstract final class Endpoints {
   static const register = 'api/identity/auth/register';
   static const login = 'api/identity/auth/login';
   static const refreshToken = 'api/identity/auth/refresh-token';
-
 }

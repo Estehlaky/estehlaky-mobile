@@ -15,10 +15,8 @@ abstract final class AppRouter {
   static final GoRouter router = GoRouter(
     navigatorKey: rootNavigatorKey,
     initialLocation: AppRoutes.splash,
-   
 
     routes: [
-
       // GoRoute(
       //   path: AppRoutes.splash,
       //   parentNavigatorKey: rootNavigatorKey,
@@ -27,7 +25,6 @@ abstract final class AppRouter {
       //   },
       // ),
 
- 
       // GoRoute(
       //   path: AppRoutes.login,
       //   parentNavigatorKey: rootNavigatorKey,
@@ -36,7 +33,6 @@ abstract final class AppRouter {
       //   },
       // ),
 
-       
       // GoRoute(
       //   path: AppRoutes.signUp,
       //   parentNavigatorKey: rootNavigatorKey,
@@ -53,8 +49,6 @@ abstract final class AppRouter {
       //   },
       //   parentNavigatorKey: rootNavigatorKey,
       // ),
-
-     
       StatefulShellRoute.indexedStack(
         branches: [
           // ------------------------------------------------
@@ -117,8 +111,6 @@ abstract final class AppRouter {
           ),
         ],
       ),
-
-  
     ],
   );
 }

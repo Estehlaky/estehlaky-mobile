@@ -16,12 +16,8 @@ class MyApp extends StatelessWidget {
 
     return MultiBlocProvider(
       providers: [
-        BlocProvider(
-          create: (_) => LanguageCubit(settingsStorage),
-        ),
-        BlocProvider(
-          create: (_) => ThemeCubit(settingsStorage),
-        ),
+        BlocProvider(create: (_) => LanguageCubit(settingsStorage)),
+        BlocProvider(create: (_) => ThemeCubit(settingsStorage)),
       ],
       child: BlocBuilder<LanguageCubit, Locale>(
         builder: (context, locale) {
@@ -33,10 +29,8 @@ class MyApp extends StatelessWidget {
                 theme: AppTheme.light(locale: locale),
                 darkTheme: AppTheme.dark(locale: locale),
                 themeMode: themeMode,
-                localizationsDelegates:
-                    AppLocalizations.localizationsDelegates,
-                supportedLocales:
-                    AppLocalizations.supportedLocales,
+                localizationsDelegates: AppLocalizations.localizationsDelegates,
+                supportedLocales: AppLocalizations.supportedLocales,
                 routerConfig: AppRouter.router,
               );
             },
