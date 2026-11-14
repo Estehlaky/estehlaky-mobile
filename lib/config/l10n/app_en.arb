@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "appName": "Estehlaky",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "login": "Login",
+  "loginRequired": "Login required",
+  "loginRequiredMessage": "Please login to use this feature.",
+  "cancel": "Cancel"
+}
