@@ -103,7 +103,6 @@ class _SplashViewState extends State<SplashView>
 
     _controller.forward();
 
-    _navigateToOnboarding();
     _navigateNext();
   }
 
@@ -119,14 +118,6 @@ class _SplashViewState extends State<SplashView>
     } else {
       context.go(AppRoutes.onBoarding);
     }
-  }
-
-  Future<void> _navigateToOnboarding() async {
-    await Future.delayed(const Duration(seconds: 3));
-
-    if (!mounted) return;
-
-    context.go(AppRoutes.onBoarding);
   }
 
   @override
