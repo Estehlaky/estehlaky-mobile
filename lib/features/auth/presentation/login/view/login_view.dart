@@ -1,5 +1,6 @@
 import 'package:estehlaky/config/l10n/generated/app_localizations.dart';
 import 'package:estehlaky/core/constant/app_images.dart';
+import 'package:estehlaky/core/constant/app_router.dart';
 import 'package:estehlaky/core/constant/app_styles.dart';
 import 'package:estehlaky/core/ui/app_colors.dart';
 import 'package:estehlaky/core/utils/app_gradient_button.dart';
@@ -8,6 +9,7 @@ import 'package:estehlaky/features/auth/presentation/login/view/widgets/top_left
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -276,7 +278,9 @@ class _LoginViewState extends State<LoginView> {
 
                         // Create account
                         GestureDetector(
-                          onTap: () {},
+                          onTap: () {
+                            context.push(AppRoutes.signUp);
+                          },
                           child: RichText(
                             textAlign: TextAlign.center,
                             text: TextSpan(

@@ -25,5 +25,11 @@
   "signIn": "تسجيل الدخول",
   "or": "أو",
   "newHere": "ليس لديك حساب؟",
-  "createAccount": "إنشاء حساب"
+  "createAccount": "إنشاء حساب جديد",
+  "fullName": "الاسم بالكامل",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "signUpSubtitle": "أدخل بياناتك للبدء",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟",
+  "byContinuingYouAgree": "بالمتابعة، أنت توافق على",
+  "termsAndPrivacyPolicy": "شروط الاستخدام وسياسة الخصوصية"
 }

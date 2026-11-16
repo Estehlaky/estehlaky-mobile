@@ -25,6 +25,12 @@
   "signIn": "Sign in",
   "or": "or",
   "newHere": "New here?",
-  "createAccount": "Create an account"
+  "createAccount": "Create an account",
+  "fullName": "Full name",
+  "confirmPassword": "Confirm password",
+  "signUpSubtitle": "Enter your details to get started",
+  "alreadyHaveAccount": "Already have an account?",
+  "byContinuingYouAgree": "By continuing, you agree to our",
+  "termsAndPrivacyPolicy": "Terms of Use and Privacy Policy"
 
 }

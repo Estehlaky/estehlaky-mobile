@@ -89,4 +89,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get createAccount => 'Create an account';
+
+  @override
+  String get fullName => 'Full name';
+
+  @override
+  String get confirmPassword => 'Confirm password';
+
+  @override
+  String get signUpSubtitle => 'Enter your details to get started';
+
+  @override
+  String get alreadyHaveAccount => 'Already have an account?';
+
+  @override
+  String get byContinuingYouAgree => 'By continuing, you agree to our';
+
+  @override
+  String get termsAndPrivacyPolicy => 'Terms of Use and Privacy Policy';
 }
