@@ -1,0 +1,11 @@
+{
+  "@@locale": "ar",
+  "appName": "استهلاكي",
+  "language": "اللغة",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "login": "تسجيل الدخول",
+  "loginRequired": "تسجيل الدخول مطلوب",
+  "loginRequiredMessage": "يرجى تسجيل الدخول لاستخدام هذه الميزة.",
+  "cancel": "إلغاء"
+}
