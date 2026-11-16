@@ -1,0 +1,20 @@
+{
+  "@@locale": "ar",
+  "appName": "استهلاكي",
+  "language": "اللغة",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "login": "تسجيل الدخول",
+  "loginRequired": "تسجيل الدخول مطلوب",
+  "loginRequiredMessage": "يرجى تسجيل الدخول لاستخدام هذه الميزة.",
+  "cancel": "إلغاء",
+  "appTagline": "اعرف .. خطط .. وفر",
+  "onboardingTitle1": "تابع استهلاكك بدقة",
+  "onboardingDescription1": "اعرف رصيد الكهرباء واستهلاكك في أي وقت",
+  "onboardingTitle2": "تحكم في استهلاكك",
+  "onboardingDescription2": "راقب استهلاكك اليومي واكتشف طرق التوفير",
+  "onboardingNext": "التالي",
+  "onboardingGetStarted": "ابدأ الآن",
+  "onboardingSkip": "تخطي",
+  "onboardingCompletionError": "حدث خطأ ما. حاول مرة أخرى."
+}
