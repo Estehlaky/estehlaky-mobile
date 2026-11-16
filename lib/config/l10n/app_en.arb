@@ -16,5 +16,15 @@
   "onboardingNext": "Next",
   "onboardingGetStarted": "Get Started",
   "onboardingSkip": "Skip",
-  "onboardingCompletionError": "Something went wrong. Please try again."
+  "onboardingCompletionError": "Something went wrong. Please try again.",
+  "electricityUnderstood": "Electricity, understood",
+  "welcomeBack": "Welcome back 👋",
+  "phoneNumber": "Phone number",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "signIn": "Sign in",
+  "or": "or",
+  "newHere": "New here?",
+  "createAccount": "Create an account"
+
 }

@@ -9,9 +9,9 @@ class AppGradientButton extends StatelessWidget {
     required this.onPressed,
     this.isLoading = false,
     this.width = double.infinity,
-    this.height = 56,
+    this.height = 55,
     this.borderRadius = 33,
-    this.fontSize = AppStyles.s21,
+    this.fontSize = AppStyles.s18,
     this.gradientColors = const [AppColors.blue0754CD, AppColors.blue003696],
     this.locale,
   });
@@ -33,12 +33,14 @@ class AppGradientButton extends StatelessWidget {
     return Container(
       width: width,
       height: height,
+
       decoration: BoxDecoration(
         gradient: LinearGradient(colors: gradientColors),
         borderRadius: BorderRadius.circular(borderRadius),
       ),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
+          padding: EdgeInsets.symmetric(vertical: 12),
           backgroundColor: Colors.transparent,
           disabledBackgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
