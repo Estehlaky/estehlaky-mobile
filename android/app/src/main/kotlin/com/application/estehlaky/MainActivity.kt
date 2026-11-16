@@ -1,4 +1,4 @@
-package com.example.estehlaky
+package com.application.estehlaky
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -7,5 +7,14 @@
   "login": "Login",
   "loginRequired": "Login required",
   "loginRequiredMessage": "Please login to use this feature.",
-  "cancel": "Cancel"
+  "cancel": "Cancel",
+   "appTagline": "Know .. Plan .. Save",
+  "onboardingTitle1": "Track your consumption accurately",
+  "onboardingDescription1": "Know your electricity balance and consumption anytime",
+  "onboardingTitle2": "Control your consumption",
+  "onboardingDescription2": "Monitor your daily consumption and discover ways to save",
+  "onboardingNext": "Next",
+  "onboardingGetStarted": "Get Started",
+  "onboardingSkip": "Skip",
+  "onboardingCompletionError": "Something went wrong. Please try again."
 }

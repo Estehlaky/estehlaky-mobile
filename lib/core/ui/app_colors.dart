@@ -97,6 +97,7 @@ abstract final class AppColors {
   static const green295B21 = Color(0xFF295B21);
   static const greenDEF1CE = Color(0xFFDEF1CE);
   static const redFF304F = Color(0xFFFF304F);
+  static const transparent = Colors.transparent;
 
   // Shadow color: same RGB, two measured opacities.
   static const shadowBlue9 = Color(0x1712368C);

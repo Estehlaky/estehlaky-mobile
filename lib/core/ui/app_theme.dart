@@ -124,7 +124,9 @@ abstract final class AppTheme {
           disabledForegroundColor: colors.textSecondary,
           elevation: 0,
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(33),
+          ),
           textStyle: AppStyles.style(
             locale: locale,
             fontSize: AppStyles.s14,

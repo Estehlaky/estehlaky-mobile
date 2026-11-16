@@ -1,8 +1,14 @@
+import 'package:estehlaky/config/di/di.dart';
+import 'package:estehlaky/features/auth/presentation/login/view/login_view.dart';
+import 'package:estehlaky/features/splash/presentation/onboarding/view/onboarding_view.dart';
+import 'package:estehlaky/features/splash/presentation/splash/view/splash_view.dart';
+import 'package:estehlaky/features/splash/usecases/has_seen_onboarding_use_case.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 abstract final class AppRoutes {
   static const splash = '/';
+  static const onBoarding = '/onBoarding';
   static const login = '/login';
   static const signUp = '/sign-up';
   static const forgetPassword = '/forgot-password';
@@ -15,101 +21,19 @@ abstract final class AppRouter {
   static final GoRouter router = GoRouter(
     navigatorKey: rootNavigatorKey,
     initialLocation: AppRoutes.splash,
-
     routes: [
-      // GoRoute(
-      //   path: AppRoutes.splash,
-      //   parentNavigatorKey: rootNavigatorKey,
-      //   builder: (context, state) {
-      //     return const SplashView();
-      //   },
-      // ),
-
-      // GoRoute(
-      //   path: AppRoutes.login,
-      //   parentNavigatorKey: rootNavigatorKey,
-      //   builder: (context, state) {
-      //     return LoginView();
-      //   },
-      // ),
-
-      // GoRoute(
-      //   path: AppRoutes.signUp,
-      //   parentNavigatorKey: rootNavigatorKey,
-      //   builder: (context, state) {
-      //     return const SignUpView();
-      //   },
-      // ),
-
-      // FORGET PASSWORD
-      // GoRoute(
-      //   path: AppRoutes.forgetPassword,
-      //   builder: (context, state) {
-      //     return ForgetPasswordView();
-      //   },
-      //   parentNavigatorKey: rootNavigatorKey,
-      // ),
-      StatefulShellRoute.indexedStack(
-        branches: [
-          // ------------------------------------------------
-          // HOME
-          // ------------------------------------------------
-          StatefulShellBranch(
-            routes: [
-              // GoRoute(
-              //   path: AppRoutes.homeTab,
-              //   builder: (context, state) {
-              //     return HomeTabView(
-              //       pushNotificationsServices:
-              //           getIt<PushNotificationsServices>(),
-              //     );
-              //   },
-              // ),
-            ],
-          ),
-
-          // ------------------------------------------------
-          // CATEGORIES
-          // ------------------------------------------------
-          StatefulShellBranch(
-            routes: [
-              // GoRoute(
-              //   path: AppRoutes.categoriesTab,
-              //   builder: (context, state) {
-              //     return const CategoriesTabView();
-              //   },
-              // ),
-            ],
-          ),
-
-          // ------------------------------------------------
-          // CART
-          // ------------------------------------------------
-          StatefulShellBranch(
-            routes: [
-              // GoRoute(
-              //   path: AppRoutes.cartTab,
-              //   builder: (context, state) {
-              //     return const CartTabView();
-              //   },
-              // ),
-            ],
-          ),
-
-          // ------------------------------------------------
-          // PROFILE
-          // ------------------------------------------------
-          StatefulShellBranch(
-            routes: [
-              // GoRoute(
-              //   path: AppRoutes.profileTab,
-              //   builder: (context, state) {
-              //     return const ProfileTabView();
-              //   },
-              // ),
-            ],
-          ),
-        ],
+      GoRoute(
+        path: AppRoutes.splash,
+        builder: (context, state) =>
+            SplashView(hasSeenOnboarding: getIt<HasSeenOnboardingUseCase>()),
+      ),
+      GoRoute(
+        path: AppRoutes.onBoarding,
+        builder: (context, state) => const OnboardingView(),
+      ),
+      GoRoute(
+        path: AppRoutes.login,
+        builder: (context, state) => const LoginView(),
       ),
     ],
   );

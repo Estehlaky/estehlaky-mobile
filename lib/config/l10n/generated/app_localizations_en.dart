@@ -32,4 +32,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cancel => 'Cancel';
+
+  @override
+  String get appTagline => 'Know .. Plan .. Save';
+
+  @override
+  String get onboardingTitle1 => 'Track your consumption accurately';
+
+  @override
+  String get onboardingDescription1 =>
+      'Know your electricity balance and consumption anytime';
+
+  @override
+  String get onboardingTitle2 => 'Control your consumption';
+
+  @override
+  String get onboardingDescription2 =>
+      'Monitor your daily consumption and discover ways to save';
+
+  @override
+  String get onboardingNext => 'Next';
+
+  @override
+  String get onboardingGetStarted => 'Get Started';
+
+  @override
+  String get onboardingSkip => 'Skip';
+
+  @override
+  String get onboardingCompletionError =>
+      'Something went wrong. Please try again.';
 }

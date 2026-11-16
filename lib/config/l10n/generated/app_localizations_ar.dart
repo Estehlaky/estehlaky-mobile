@@ -32,4 +32,32 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get cancel => 'إلغاء';
+
+  @override
+  String get appTagline => 'اعرف .. خطط .. وفر';
+
+  @override
+  String get onboardingTitle1 => 'تابع استهلاكك بدقة';
+
+  @override
+  String get onboardingDescription1 => 'اعرف رصيد الكهرباء واستهلاكك في أي وقت';
+
+  @override
+  String get onboardingTitle2 => 'تحكم في استهلاكك';
+
+  @override
+  String get onboardingDescription2 =>
+      'راقب استهلاكك اليومي واكتشف طرق التوفير';
+
+  @override
+  String get onboardingNext => 'التالي';
+
+  @override
+  String get onboardingGetStarted => 'ابدأ الآن';
+
+  @override
+  String get onboardingSkip => 'تخطي';
+
+  @override
+  String get onboardingCompletionError => 'حدث خطأ ما. حاول مرة أخرى.';
 }

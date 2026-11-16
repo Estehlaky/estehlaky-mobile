@@ -1,3 +1,4 @@
+import 'package:estehlaky/config/di/di.dart';
 import 'package:estehlaky/config/l10n/generated/app_localizations.dart';
 import 'package:estehlaky/config/storage/settings_storage_service.dart';
 import 'package:estehlaky/core/constant/app_router.dart';
@@ -17,6 +18,10 @@ void main() async {
 
   await Hive.initFlutter();
   await Hive.openBox('settings');
+
+  // Initialize GetIt / Injectable.
+  configureDependencies();
+
   runApp(const MyApp());
 }
 
