@@ -5,7 +5,6 @@ import 'package:estehlaky/features/auth/presentation/forget_password/view/verify
 import 'package:estehlaky/features/auth/presentation/forget_password/view/widgets/registration_success_view.dart';
 import 'package:estehlaky/features/auth/presentation/login/view/login_view.dart';
 import 'package:estehlaky/features/auth/presentation/sign_up/view/signup_view.dart';
-import 'package:estehlaky/features/auth/presentation/sign_up/view/signup_view.dart';
 import 'package:estehlaky/features/splash/presentation/onboarding/view/onboarding_view.dart';
 import 'package:estehlaky/features/splash/presentation/splash/view/splash_view.dart';
 import 'package:estehlaky/features/splash/usecases/has_seen_onboarding_use_case.dart';
