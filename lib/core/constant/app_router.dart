@@ -11,6 +11,7 @@ import 'package:estehlaky/features/splash/usecases/has_seen_onboarding_use_case.
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+// release
 abstract final class AppRoutes {
   static const splash = '/';
   static const onBoarding = '/onBoarding';
