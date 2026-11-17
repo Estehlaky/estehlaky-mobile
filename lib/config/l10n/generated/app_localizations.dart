@@ -215,7 +215,7 @@ abstract class AppLocalizations {
   /// No description provided for @phoneNumber.
   ///
   /// In en, this message translates to:
-  /// **'Phone number'**
+  /// **'Phone Number'**
   String get phoneNumber;
 
   /// No description provided for @password.
@@ -263,7 +263,7 @@ abstract class AppLocalizations {
   /// No description provided for @confirmPassword.
   ///
   /// In en, this message translates to:
-  /// **'Confirm password'**
+  /// **'Confirm Password'**
   String get confirmPassword;
 
   /// No description provided for @signUpSubtitle.
@@ -289,6 +289,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of Use and Privacy Policy'**
   String get termsAndPrivacyPolicy;
+
+  /// No description provided for @verifyPhoneNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your phone number'**
+  String get verifyPhoneNumber;
+
+  /// No description provided for @enterCodeSentTo.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the code sent to'**
+  String get enterCodeSentTo;
+
+  /// No description provided for @resendCodeWithTimer.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend code ({time})'**
+  String resendCodeWithTimer(String time);
+
+  /// No description provided for @verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get verify;
+
+  /// No description provided for @back.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get back;
+
+  /// No description provided for @enterCompleteOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the complete verification code'**
+  String get enterCompleteOtp;
+
+  /// No description provided for @resetPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset Password'**
+  String get resetPassword;
+
+  /// No description provided for @enterPhoneToReceiveOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your phone number to receive a verification code'**
+  String get enterPhoneToReceiveOtp;
+
+  /// No description provided for @sendCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Code'**
+  String get sendCode;
+
+  /// No description provided for @backToLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to Login'**
+  String get backToLogin;
+
+  /// No description provided for @createNewPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Create New Password'**
+  String get createNewPassword;
+
+  /// No description provided for @enterStrongPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a strong password'**
+  String get enterStrongPassword;
+
+  /// No description provided for @newPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'New Password'**
+  String get newPassword;
+
+  /// No description provided for @setPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Set Password'**
+  String get setPassword;
+
+  /// No description provided for @registrationSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Registration Successful!'**
+  String get registrationSuccess;
+
+  /// No description provided for @enjoyEstehlakyFeatures.
+  ///
+  /// In en, this message translates to:
+  /// **'You can now enjoy all the features of Estehlaky'**
+  String get enjoyEstehlakyFeatures;
+
+  /// No description provided for @goToDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to Dashboard'**
+  String get goToDashboard;
 }
 
 class _AppLocalizationsDelegate

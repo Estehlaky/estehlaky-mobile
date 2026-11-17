@@ -105,4 +105,58 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get termsAndPrivacyPolicy => 'شروط الاستخدام وسياسة الخصوصية';
+
+  @override
+  String get verifyPhoneNumber => 'تحقق من رقم هاتفك';
+
+  @override
+  String get enterCodeSentTo => 'أدخل الكود المرسل إلى';
+
+  @override
+  String resendCodeWithTimer(String time) {
+    return 'إعادة إرسال الكود ($time)';
+  }
+
+  @override
+  String get verify => 'تحقق';
+
+  @override
+  String get back => 'رجوع';
+
+  @override
+  String get enterCompleteOtp => 'من فضلك أدخل رمز التحقق كاملاً';
+
+  @override
+  String get resetPassword => 'إعادة تعيين كلمة المرور';
+
+  @override
+  String get enterPhoneToReceiveOtp => 'أدخل رقم هاتفك لاستلام رمز التحقق';
+
+  @override
+  String get sendCode => 'إرسال الرمز';
+
+  @override
+  String get backToLogin => 'العودة إلى تسجيل الدخول';
+
+  @override
+  String get createNewPassword => 'إنشاء كلمة مرور جديدة';
+
+  @override
+  String get enterStrongPassword => 'أدخل كلمة مرور قوية';
+
+  @override
+  String get newPassword => 'كلمة المرور الجديدة';
+
+  @override
+  String get setPassword => 'تعيين كلمة المرور';
+
+  @override
+  String get registrationSuccess => 'تم التسجيل بنجاح!';
+
+  @override
+  String get enjoyEstehlakyFeatures =>
+      'يمكنك الآن الاستمتاع بجميع مميزات استهلاكي';
+
+  @override
+  String get goToDashboard => 'الذهاب إلى لوحة التحكم';
 }

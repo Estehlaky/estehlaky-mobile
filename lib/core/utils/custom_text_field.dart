@@ -43,10 +43,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
         controller: widget.controller,
         obscureText: widget.isPassword ? _obscurePassword : false,
         keyboardType: widget.keyboardType,
-        style: const TextStyle(
+        style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.w600,
-          color: Color(0xFF102A43),
+          color: colors.onSurface,
         ),
         decoration: InputDecoration(
           hintText: widget.hintText,

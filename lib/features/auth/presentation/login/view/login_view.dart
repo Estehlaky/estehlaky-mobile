@@ -5,9 +5,12 @@ import 'package:estehlaky/core/constant/app_styles.dart';
 import 'package:estehlaky/core/ui/app_colors.dart';
 import 'package:estehlaky/core/utils/app_gradient_button.dart';
 import 'package:estehlaky/core/utils/custom_text_field.dart';
+import 'package:estehlaky/core/utils/language_toggle_switch.dart';
 import 'package:estehlaky/features/auth/presentation/login/view/widgets/top_left_wave_painter.dart';
+import 'package:estehlaky/shared/settings/language_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
@@ -187,7 +190,9 @@ class _LoginViewState extends State<LoginView> {
                         Align(
                           alignment: AlignmentDirectional.center,
                           child: TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              context.push(AppRoutes.verifyOtpView);
+                            },
                             style: TextButton.styleFrom(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 8,
@@ -313,6 +318,18 @@ class _LoginViewState extends State<LoginView> {
                 ),
               );
             },
+          ),
+          Positioned(
+            top: 35,
+            right: 20, // Added 20px right padding so it doesn't touch the screen edge
+            child: LanguageToggleSwitch(
+              isArabic: locale.languageCode == 'ar',
+              onChanged: (bool isArabic) {
+                context.read<LanguageCubit>().changeLanguage(
+                  isArabic ? 'ar' : 'en',
+                );
+              },
+            ),
           ),
         ],
       ),

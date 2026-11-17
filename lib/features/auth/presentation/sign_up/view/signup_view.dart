@@ -1,9 +1,11 @@
 import 'package:estehlaky/config/l10n/generated/app_localizations.dart';
+import 'package:estehlaky/core/constant/app_router.dart';
 import 'package:estehlaky/core/constant/app_styles.dart';
 import 'package:estehlaky/core/utils/app_gradient_button.dart';
 import 'package:estehlaky/core/utils/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:go_router/go_router.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});
@@ -190,5 +192,6 @@ class _SignUpViewState extends State<SignUpView> {
     if (password != confirmPassword) {
       return;
     }
+    context.go(AppRoutes.registrationSuccess);
   }
 }

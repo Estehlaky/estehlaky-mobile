@@ -70,7 +70,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcomeBack => 'Welcome back 👋';
 
   @override
-  String get phoneNumber => 'Phone number';
+  String get phoneNumber => 'Phone Number';
 
   @override
   String get password => 'Password';
@@ -94,7 +94,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get fullName => 'Full name';
 
   @override
-  String get confirmPassword => 'Confirm password';
+  String get confirmPassword => 'Confirm Password';
 
   @override
   String get signUpSubtitle => 'Enter your details to get started';
@@ -107,4 +107,59 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get termsAndPrivacyPolicy => 'Terms of Use and Privacy Policy';
+
+  @override
+  String get verifyPhoneNumber => 'Verify your phone number';
+
+  @override
+  String get enterCodeSentTo => 'Enter the code sent to';
+
+  @override
+  String resendCodeWithTimer(String time) {
+    return 'Resend code ($time)';
+  }
+
+  @override
+  String get verify => 'Verify';
+
+  @override
+  String get back => 'Back';
+
+  @override
+  String get enterCompleteOtp => 'Please enter the complete verification code';
+
+  @override
+  String get resetPassword => 'Reset Password';
+
+  @override
+  String get enterPhoneToReceiveOtp =>
+      'Enter your phone number to receive a verification code';
+
+  @override
+  String get sendCode => 'Send Code';
+
+  @override
+  String get backToLogin => 'Back to Login';
+
+  @override
+  String get createNewPassword => 'Create New Password';
+
+  @override
+  String get enterStrongPassword => 'Enter a strong password';
+
+  @override
+  String get newPassword => 'New Password';
+
+  @override
+  String get setPassword => 'Set Password';
+
+  @override
+  String get registrationSuccess => 'Registration Successful!';
+
+  @override
+  String get enjoyEstehlakyFeatures =>
+      'You can now enjoy all the features of Estehlaky';
+
+  @override
+  String get goToDashboard => 'Go to Dashboard';
 }
