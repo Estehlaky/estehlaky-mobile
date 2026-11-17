@@ -31,5 +31,32 @@
   "signUpSubtitle": "أدخل بياناتك للبدء",
   "alreadyHaveAccount": "لديك حساب بالفعل؟",
   "byContinuingYouAgree": "بالمتابعة، أنت توافق على",
-  "termsAndPrivacyPolicy": "شروط الاستخدام وسياسة الخصوصية"
+  "termsAndPrivacyPolicy": "شروط الاستخدام وسياسة الخصوصية",
+    "verifyPhoneNumber": "تحقق من رقم هاتفك",
+  "enterCodeSentTo": "أدخل الكود المرسل إلى",
+  "resendCodeWithTimer": "إعادة إرسال الكود ({time})",
+  "@resendCodeWithTimer": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "verify": "تحقق",
+  "back": "رجوع",
+  "enterCompleteOtp": "من فضلك أدخل رمز التحقق كاملاً",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "enterPhoneToReceiveOtp": "أدخل رقم هاتفك لاستلام رمز التحقق",
+  "phoneNumber": "رقم الهاتف",
+  "sendCode": "إرسال الرمز",
+  "backToLogin": "العودة إلى تسجيل الدخول",
+    "createNewPassword": "إنشاء كلمة مرور جديدة",
+  "enterStrongPassword": "أدخل كلمة مرور قوية",
+  "newPassword": "كلمة المرور الجديدة",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "setPassword": "تعيين كلمة المرور",
+    "registrationSuccess": "تم التسجيل بنجاح!",
+  "enjoyEstehlakyFeatures": "يمكنك الآن الاستمتاع بجميع مميزات استهلاكي",
+  "goToDashboard": "الذهاب إلى لوحة التحكم"
+
 }

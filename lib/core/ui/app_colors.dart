@@ -107,7 +107,7 @@ abstract final class AppColors {
   static const AppColorPalette light = AppColorPalette(
     primary: blue2463B4,
     accent: goldFFA000,
-    background: blueF5F8FD,
+    background: blueE6EEF9,
     surface: white,
     textPrimary: blue172B4D,
     textSecondary: blue50647F,

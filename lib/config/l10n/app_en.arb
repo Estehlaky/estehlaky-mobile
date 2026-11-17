@@ -31,6 +31,33 @@
   "signUpSubtitle": "Enter your details to get started",
   "alreadyHaveAccount": "Already have an account?",
   "byContinuingYouAgree": "By continuing, you agree to our",
-  "termsAndPrivacyPolicy": "Terms of Use and Privacy Policy"
+  "termsAndPrivacyPolicy": "Terms of Use and Privacy Policy",
+    "verifyPhoneNumber": "Verify your phone number",
+  "enterCodeSentTo": "Enter the code sent to",
+  "resendCodeWithTimer": "Resend code ({time})",
+  "@resendCodeWithTimer": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "verify": "Verify",
+  "back": "Back",
+  "enterCompleteOtp": "Please enter the complete verification code",
+  "resetPassword": "Reset Password",
+  "enterPhoneToReceiveOtp": "Enter your phone number to receive a verification code",
+  "phoneNumber": "Phone Number",
+  "sendCode": "Send Code",
+  "backToLogin": "Back to Login",
+    "createNewPassword": "Create New Password",
+  "enterStrongPassword": "Enter a strong password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm Password",
+  "setPassword": "Set Password",
+   "registrationSuccess": "Registration Successful!",
+  "enjoyEstehlakyFeatures": "You can now enjoy all the features of Estehlaky",
+  "goToDashboard": "Go to Dashboard"
+
 
 }
