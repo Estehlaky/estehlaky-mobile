@@ -62,4 +62,31 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get onboardingCompletionError =>
       'Something went wrong. Please try again.';
+
+  @override
+  String get electricityUnderstood => 'Electricity, understood';
+
+  @override
+  String get welcomeBack => 'Welcome back 👋';
+
+  @override
+  String get phoneNumber => 'Phone number';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get forgotPassword => 'Forgot password?';
+
+  @override
+  String get signIn => 'Sign in';
+
+  @override
+  String get or => 'or';
+
+  @override
+  String get newHere => 'New here?';
+
+  @override
+  String get createAccount => 'Create an account';
 }

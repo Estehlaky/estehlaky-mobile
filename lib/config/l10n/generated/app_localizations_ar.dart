@@ -60,4 +60,31 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get onboardingCompletionError => 'حدث خطأ ما. حاول مرة أخرى.';
+
+  @override
+  String get electricityUnderstood => 'الكهرباء، ببساطة';
+
+  @override
+  String get welcomeBack => 'مرحبًا بعودتك 👋';
+
+  @override
+  String get phoneNumber => 'رقم الهاتف';
+
+  @override
+  String get password => 'كلمة المرور';
+
+  @override
+  String get forgotPassword => 'هل نسيت كلمة المرور؟';
+
+  @override
+  String get signIn => 'تسجيل الدخول';
+
+  @override
+  String get or => 'أو';
+
+  @override
+  String get newHere => 'ليس لديك حساب؟';
+
+  @override
+  String get createAccount => 'إنشاء حساب';
 }

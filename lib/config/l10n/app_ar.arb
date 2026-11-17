@@ -16,5 +16,14 @@
   "onboardingNext": "التالي",
   "onboardingGetStarted": "ابدأ الآن",
   "onboardingSkip": "تخطي",
-  "onboardingCompletionError": "حدث خطأ ما. حاول مرة أخرى."
+  "onboardingCompletionError": "حدث خطأ ما. حاول مرة أخرى.",
+  "electricityUnderstood": "الكهرباء، ببساطة",
+  "welcomeBack": "مرحبًا بعودتك 👋",
+  "phoneNumber": "رقم الهاتف",
+  "password": "كلمة المرور",
+  "forgotPassword": "هل نسيت كلمة المرور؟",
+  "signIn": "تسجيل الدخول",
+  "or": "أو",
+  "newHere": "ليس لديك حساب؟",
+  "createAccount": "إنشاء حساب"
 }
