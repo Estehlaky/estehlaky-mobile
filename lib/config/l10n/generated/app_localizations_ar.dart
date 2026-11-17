@@ -86,5 +86,23 @@ class AppLocalizationsAr extends AppLocalizations {
   String get newHere => 'ليس لديك حساب؟';
 
   @override
-  String get createAccount => 'إنشاء حساب';
+  String get createAccount => 'إنشاء حساب جديد';
+
+  @override
+  String get fullName => 'الاسم بالكامل';
+
+  @override
+  String get confirmPassword => 'تأكيد كلمة المرور';
+
+  @override
+  String get signUpSubtitle => 'أدخل بياناتك للبدء';
+
+  @override
+  String get alreadyHaveAccount => 'لديك حساب بالفعل؟';
+
+  @override
+  String get byContinuingYouAgree => 'بالمتابعة، أنت توافق على';
+
+  @override
+  String get termsAndPrivacyPolicy => 'شروط الاستخدام وسياسة الخصوصية';
 }
